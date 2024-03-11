@@ -1,0 +1,12 @@
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\obj\Debug\Prog82a speeding ticket.pyprojResolveAssemblyReference.cache
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\obj\Debug\Prog82a_speeding_ticket.MainForm.resources
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\obj\Debug\Prog82a speeding ticket.pyproj.GenerateResource.Cache
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Prog82a speeding ticket.exe.config
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Prog82a speeding ticket.exe
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Prog82a speeding ticket.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\IronPython.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\IronPython.Modules.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Microsoft.Scripting.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\pitts.a\Desktop\Programming-1\Prog82a speeding ticket\Prog82a speeding ticket\obj\Debug\Prog82a speeding ticket.exe
