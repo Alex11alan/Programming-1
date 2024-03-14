@@ -135,7 +135,7 @@ class MainForm(Form):
 			fine = 0.00
 		mo = vhspd - spdlim
 		motp = mo * 5
-		totalfine = motp + fine
+		totalfine = motp + fine + 20.00
 		
 		self._label5.Text = str(totalfine)
 	
