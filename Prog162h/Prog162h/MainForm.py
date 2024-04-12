@@ -156,7 +156,7 @@ class MainForm(Form):
 	def Button1Click(self, sender, e):
 		g = self._textBox1.Text
 		c = self._textBox2.Text
-		s = int(g - c)
+		s = g - c
 		self._label6.Text = s
 		self._label5.text = ""
 
