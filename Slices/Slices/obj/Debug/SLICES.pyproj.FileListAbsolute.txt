@@ -1,0 +1,10 @@
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\SLICES.exe.config
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\SLICES.exe
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\SLICES.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\IronPython.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\IronPython.Modules.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\Microsoft.Scripting.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\obj\Debug\SLICES.pyprojResolveAssemblyReference.cache
+C:\Users\pitts.a\Desktop\Programming-1\SLICES\SLICES\obj\Debug\SLICES.exe

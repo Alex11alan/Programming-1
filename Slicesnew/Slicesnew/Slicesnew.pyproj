@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{6D1F72C0-9883-483D-B9F5-7D7AC268FBCD}</ProjectGuid>
+    <ProjectGuid>{F924B6A9-BE07-479E-ACF7-62C6EDC5EA83}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>FullName119</RootNamespace>
-    <AssemblyName>FullName119</AssemblyName>
+    <RootNamespace>Slicesnew</RootNamespace>
+    <AssemblyName>Slicesnew</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <DebugInfo>True</DebugInfo>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -16,12 +19,11 @@
     <DebugType>Full</DebugType>
     <Optimize>False</Optimize>
     <OutputType>WinExe</OutputType>
-    <MainFile>Program.py</MainFile>
-    <DebugInfo>True</DebugInfo>
-    <StartArguments>-X:Debug Program.py</StartArguments>
+    <MainFile>Application.py</MainFile>
+    <StartArguments>-X:Debug Application.py</StartArguments>
     <StartWorkingDirectory>.\</StartWorkingDirectory>
-    <StartAction>Project</StartAction>
-    <StartProgram>C:\Program Files (x86)\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files %28x86%29\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -29,8 +31,8 @@
     <DebugType>None</DebugType>
     <Optimize>True</Optimize>
     <OutputType>WinExe</OutputType>
-    <MainFile>Program.py</MainFile>
-    <StartArguments>Program.py</StartArguments>
+    <MainFile>Application.py</MainFile>
+    <StartArguments>Application.py</StartArguments>
     <StartWorkingDirectory>.\</StartWorkingDirectory>
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files (x86)\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
@@ -42,7 +44,16 @@
     <Reference Include="IronPython.Modules">
       <HintPath>C:\Program Files %28x86%29\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\IronPython.Modules.dll</HintPath>
     </Reference>
+    <Reference Include="IronPython.Wpf">
+      <HintPath>C:\Program Files %28x86%29\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\DLLs\IronPython.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -51,24 +62,30 @@
     <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.py" />
-    <Compile Include="Program.py" />
+    <Compile Include="Application.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.py</DependentUpon>
-    </EmbeddedResource>
+    <None Include="Window1.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
 </Project>

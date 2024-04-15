@@ -18,6 +18,7 @@ class MainForm(Form):
 		self._label2 = System.Windows.Forms.Label()
 		self._label3 = System.Windows.Forms.Label()
 		self._label4 = System.Windows.Forms.Label()
+		self._label5 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# button1
@@ -108,9 +109,19 @@ class MainForm(Form):
 		self._label4.Size = System.Drawing.Size(212, 74)
 		self._label4.TabIndex = 9
 		# 
+		# label5
+		# 
+		self._label5.BackColor = System.Drawing.Color.LightGreen
+		self._label5.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._label5.Location = System.Drawing.Point(343, 218)
+		self._label5.Name = "label5"
+		self._label5.Size = System.Drawing.Size(106, 74)
+		self._label5.TabIndex = 10
+		# 
 		# MainForm
 		# 
 		self.ClientSize = System.Drawing.Size(535, 538)
+		self.Controls.Add(self._label5)
 		self.Controls.Add(self._label4)
 		self.Controls.Add(self._label3)
 		self.Controls.Add(self._label2)
@@ -121,22 +132,20 @@ class MainForm(Form):
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
 		self.Name = "MainForm"
-		self.Text = "FullName119"
+		self.Text = "MainForm"
 		self.ResumeLayout(False)
 		self.PerformLayout()
 
 
 	def Button1Click(self, sender, e):
-		pass
+		self._label4.Text = self._textBox1.Text
+		self._label5.Text = self._textBox2.Text
 
 	def Button2Click(self, sender, e):
 		self._textBox1.Text = ""
 		self._textBox2.Text = ""
 		self._label4.Text = ""
+		self._label5.Text = ""
 
 	def Button3Click(self, sender, e):
-		pass
-	
-	
-	
-	
+		Application.Exit()
