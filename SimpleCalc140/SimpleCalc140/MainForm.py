@@ -11,13 +11,6 @@ class MainForm(Form):
 	def InitializeComponent(self):
 		self._label1 = System.Windows.Forms.Label()
 		self._label2 = System.Windows.Forms.Label()
-		self._groupBox1 = System.Windows.Forms.GroupBox()
-		self._button1 = System.Windows.Forms.Button()
-		self._button2 = System.Windows.Forms.Button()
-		self._button3 = System.Windows.Forms.Button()
-		self._button4 = System.Windows.Forms.Button()
-		self._button5 = System.Windows.Forms.Button()
-		self._button6 = System.Windows.Forms.Button()
 		self._button7 = System.Windows.Forms.Button()
 		self._button8 = System.Windows.Forms.Button()
 		self._button9 = System.Windows.Forms.Button()
@@ -25,7 +18,13 @@ class MainForm(Form):
 		self._textBox1 = System.Windows.Forms.TextBox()
 		self._textBox2 = System.Windows.Forms.TextBox()
 		self._label4 = System.Windows.Forms.Label()
-		self._groupBox1.SuspendLayout()
+		self._label5 = System.Windows.Forms.Label()
+		self._button1 = System.Windows.Forms.Button()
+		self._button2 = System.Windows.Forms.Button()
+		self._button3 = System.Windows.Forms.Button()
+		self._button6 = System.Windows.Forms.Button()
+		self._button5 = System.Windows.Forms.Button()
+		self._button4 = System.Windows.Forms.Button()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -47,75 +46,6 @@ class MainForm(Form):
 		self._label2.Size = System.Drawing.Size(127, 59)
 		self._label2.TabIndex = 1
 		self._label2.Text = "Number 2:"
-		# 
-		# groupBox1
-		# 
-		self._groupBox1.Controls.Add(self._button4)
-		self._groupBox1.Controls.Add(self._button5)
-		self._groupBox1.Controls.Add(self._button6)
-		self._groupBox1.Controls.Add(self._button3)
-		self._groupBox1.Controls.Add(self._button2)
-		self._groupBox1.Controls.Add(self._button1)
-		self._groupBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 26.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-		self._groupBox1.Location = System.Drawing.Point(330, 12)
-		self._groupBox1.Name = "groupBox1"
-		self._groupBox1.Size = System.Drawing.Size(247, 177)
-		self._groupBox1.TabIndex = 2
-		self._groupBox1.TabStop = False
-		# 
-		# button1
-		# 
-		self._button1.Location = System.Drawing.Point(4, 19)
-		self._button1.Name = "button1"
-		self._button1.Size = System.Drawing.Size(75, 65)
-		self._button1.TabIndex = 0
-		self._button1.Text = "+"
-		self._button1.UseVisualStyleBackColor = True
-		# 
-		# button2
-		# 
-		self._button2.Location = System.Drawing.Point(85, 19)
-		self._button2.Name = "button2"
-		self._button2.Size = System.Drawing.Size(75, 65)
-		self._button2.TabIndex = 1
-		self._button2.Text = "-"
-		self._button2.UseVisualStyleBackColor = True
-		# 
-		# button3
-		# 
-		self._button3.Location = System.Drawing.Point(166, 19)
-		self._button3.Name = "button3"
-		self._button3.Size = System.Drawing.Size(75, 65)
-		self._button3.TabIndex = 2
-		self._button3.Text = "="
-		self._button3.UseVisualStyleBackColor = True
-		# 
-		# button4
-		# 
-		self._button4.Location = System.Drawing.Point(6, 90)
-		self._button4.Name = "button4"
-		self._button4.Size = System.Drawing.Size(75, 65)
-		self._button4.TabIndex = 5
-		self._button4.Text = "^"
-		self._button4.UseVisualStyleBackColor = True
-		# 
-		# button5
-		# 
-		self._button5.Location = System.Drawing.Point(85, 90)
-		self._button5.Name = "button5"
-		self._button5.Size = System.Drawing.Size(75, 65)
-		self._button5.TabIndex = 4
-		self._button5.Text = "/"
-		self._button5.UseVisualStyleBackColor = True
-		# 
-		# button6
-		# 
-		self._button6.Location = System.Drawing.Point(166, 90)
-		self._button6.Name = "button6"
-		self._button6.Size = System.Drawing.Size(75, 65)
-		self._button6.TabIndex = 3
-		self._button6.Text = "//"
-		self._button6.UseVisualStyleBackColor = True
 		# 
 		# button7
 		# 
@@ -178,22 +108,96 @@ class MainForm(Form):
 		self._label4.Size = System.Drawing.Size(100, 84)
 		self._label4.TabIndex = 12
 		# 
+		# label5
+		# 
+		self._label5.BackColor = System.Drawing.Color.Beige
+		self._label5.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._label5.Location = System.Drawing.Point(146, 321)
+		self._label5.Name = "label5"
+		self._label5.Size = System.Drawing.Size(205, 59)
+		self._label5.TabIndex = 13
+		# 
+		# button1
+		# 
+		self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button1.Location = System.Drawing.Point(340, 31)
+		self._button1.Name = "button1"
+		self._button1.Size = System.Drawing.Size(75, 65)
+		self._button1.TabIndex = 0
+		self._button1.Text = "+"
+		self._button1.UseVisualStyleBackColor = True
+		# 
+		# button2
+		# 
+		self._button2.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button2.Location = System.Drawing.Point(421, 31)
+		self._button2.Name = "button2"
+		self._button2.Size = System.Drawing.Size(75, 65)
+		self._button2.TabIndex = 1
+		self._button2.Text = "-"
+		self._button2.UseVisualStyleBackColor = True
+		# 
+		# button3
+		# 
+		self._button3.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button3.Location = System.Drawing.Point(502, 31)
+		self._button3.Name = "button3"
+		self._button3.Size = System.Drawing.Size(75, 65)
+		self._button3.TabIndex = 2
+		self._button3.Text = "="
+		self._button3.UseVisualStyleBackColor = True
+		# 
+		# button6
+		# 
+		self._button6.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button6.Location = System.Drawing.Point(502, 102)
+		self._button6.Name = "button6"
+		self._button6.Size = System.Drawing.Size(75, 65)
+		self._button6.TabIndex = 3
+		self._button6.Text = "//"
+		self._button6.UseVisualStyleBackColor = True
+		# 
+		# button5
+		# 
+		self._button5.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button5.Location = System.Drawing.Point(421, 102)
+		self._button5.Name = "button5"
+		self._button5.Size = System.Drawing.Size(75, 65)
+		self._button5.TabIndex = 4
+		self._button5.Text = "/"
+		self._button5.UseVisualStyleBackColor = True
+		# 
+		# button4
+		# 
+		self._button4.Font = System.Drawing.Font("Microsoft Sans Serif", 21.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._button4.Location = System.Drawing.Point(342, 102)
+		self._button4.Name = "button4"
+		self._button4.Size = System.Drawing.Size(75, 65)
+		self._button4.TabIndex = 5
+		self._button4.Text = "^"
+		self._button4.UseVisualStyleBackColor = True
+		# 
 		# MainForm
 		# 
 		self.ClientSize = System.Drawing.Size(589, 506)
+		self.Controls.Add(self._button4)
+		self.Controls.Add(self._label5)
+		self.Controls.Add(self._button5)
 		self.Controls.Add(self._label4)
+		self.Controls.Add(self._button6)
+		self.Controls.Add(self._button3)
 		self.Controls.Add(self._textBox2)
+		self.Controls.Add(self._button2)
 		self.Controls.Add(self._textBox1)
+		self.Controls.Add(self._button1)
 		self.Controls.Add(self._label3)
 		self.Controls.Add(self._button7)
-		self.Controls.Add(self._groupBox1)
 		self.Controls.Add(self._button8)
 		self.Controls.Add(self._button9)
 		self.Controls.Add(self._label2)
 		self.Controls.Add(self._label1)
 		self.Name = "MainForm"
 		self.Text = "SimpleCalc140"
-		self._groupBox1.ResumeLayout(False)
 		self.ResumeLayout(False)
 		self.PerformLayout()
 
