@@ -228,9 +228,6 @@ class MainForm(Form):
 		v1 = int(self._textBox1.Text)
 		v2 = int(self._textBox2.Text)
 
-	def Button9Click(self, sender, e):
-		Application.Exit()
-
 	def Button4Click(self, sender, e):
 		v1 = int(self._textBox1.Text)
 		v2 = int(self._textBox2.Text)
@@ -250,7 +247,15 @@ class MainForm(Form):
 		self._label5.Text = c
 		
 	def Button7Click(self, sender, e):
-		pass
+		v1 = int(self._textBox1.Text)
+		v2 = int(self._textBox2.Text)
+		c = str(abs(v1 - v2))
+		self._label5.Text = c
 
 	def Button8Click(self, sender, e):
-		pass
+		self._textBox1.Text = ""
+		self._textBox2.Text = ""
+		self._label5.Text = ""
+	
+	def Button9Click(self, sender, e):
+		Application.Exit()
