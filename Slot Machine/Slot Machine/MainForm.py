@@ -235,7 +235,7 @@ class MainForm(Form):
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.Aqua
-		self.ClientSize = System.Drawing.Size(705, 500)
+		self.ClientSize = System.Drawing.Size(704, 498)
 		self.Controls.Add(self._pictureBox11)
 		self.Controls.Add(self._pictureBox10)
 		self.Controls.Add(self._pictureBox9)
