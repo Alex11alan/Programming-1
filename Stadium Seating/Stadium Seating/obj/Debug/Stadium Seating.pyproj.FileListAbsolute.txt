@@ -1,0 +1,12 @@
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Stadium Seating.exe.config
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Stadium Seating.exe
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Stadium Seating.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\IronPython.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\IronPython.Modules.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Microsoft.Scripting.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\obj\Debug\Stadium Seating.pyprojResolveAssemblyReference.cache
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\obj\Debug\Stadium_Seating.MainForm.resources
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\obj\Debug\Stadium Seating.pyproj.GenerateResource.Cache
+C:\Users\pitts.a\Desktop\Prog-1\Programming-1\Stadium Seating\Stadium Seating\obj\Debug\Stadium Seating.exe
